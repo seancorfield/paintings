@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for data  in  paintings %}
+
+ <img src={{ data.tiles  %} />
+
+
+{% endfor %}
+
+{% endblock %}
