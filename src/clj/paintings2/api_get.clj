@@ -1,22 +1,25 @@
 (ns paintings2.api-get
-  (:require [clj-http.client :as client]))
+  (:require [clj-http.client :as client]
+            [environ.core :refer [env]]))
 
 
 (defn read-numbers
   "Reads the ids of the paintings"
   []
-  (let [ids (->> (client/get "https://www.rijksmuseum.nl/api/nl/collection?key=14OGzuak&format=json&type=schilderij&toppieces=True" {:as :json})
+  (let [data (-> ( str "https://www.rijksmuseum.nl/api/nl/collection?key=" (env :key)  "&format=json&type=schilderij&toppieces=True")
+                 (client/get {:as :json})
                  :body
                  :artObjects
-                 (map :id))
-        ids (reduce (fn [results id] (conj results (.substring id 3))) [] ids)]
-    ids))
+                 )
+        map-id (map :id data)
+        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]
+    ids ))
 
 
 (defn read-data-painting
   "Reads the title, description, date , collection, colors and url of a image"
   [id]
-  (let [art-objects (-> (str "https://www.rijksmuseum.nl/api/nl/collection/" id "?key=14OGzuak&format=json&type=schilderij&toppieces=True")
+  (let [art-objects (-> (str "https://www.rijksmuseum.nl/api/nl/collection/" id "?key=" (env :key)  "&format=json&type=schilderij&toppieces=True")
                         (client/get {:as :json})
                         :body
                         :artObject)
@@ -33,7 +36,7 @@
 (defn read-image-url
   "Reads the image-url"
   [id]
-  (let [art-objects (-> (str "https://www.rijksmuseum.nl/api/nl/collection/" id "/tiles?key=14OGzuak&format=json")
+  (let [art-objects (-> (str "https://www.rijksmuseum.nl/api/nl/collection/" id "/tiles?key=" (env :key) "&format=json")
                         (client/get {:as :json})
                         :body
                         :levels
@@ -45,9 +48,7 @@
      ]
     {:id id :tiles image }))
 
-
 (defn do-both-in-parallel [ids]
   (let [paint-thread (future (pmap read-data-painting ids))
         image-thread (future (pmap read-image-url ids))]
     (pmap merge @paint-thread @image-thread)))
-

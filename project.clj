@@ -24,6 +24,7 @@
                  [ring/ring-defaults "0.2.1"]
                  [selmer "1.10.1"]
                  [clj-http "2.3.0"]
+                 [environ "1.1.0"]
                  ]
 
   :min-lein-version "2.0.0"
@@ -35,7 +36,8 @@
   :main paintings2.core
 
   :plugins [[lein-cprop "1.0.1"]
-            [lein-immutant "2.1.0"]]
+            [lein-immutant "2.1.0"]
+            [lein-environ "1.1.0"]]
 
   :profiles
   {:uberjar {:omit-source true
