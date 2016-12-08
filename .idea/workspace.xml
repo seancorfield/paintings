@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3da587f-458a-4110-b9f7-cdc846aa7b82" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/paintings2/api_get.clj" afterPath="$PROJECT_DIR$/src/clj/paintings2/api_get.clj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project.clj">
+      <file leaf-file-name="api_get.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clj/paintings2/api_get.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profiles.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profiles.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -52,6 +75,7 @@
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/profiles.clj" />
         <option value="$PROJECT_DIR$/src/clj/paintings2/api_get.clj" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -76,7 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -99,85 +123,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base+system+user+dev+dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base+system+user+dev+dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base+system+user+dev+dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paintings2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -197,15 +151,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="ReplState" timestamp="1481108997755">{:repl-history {:ide [], :local [&quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;))\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                ]\n    \n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                )\n    \n    ids ]))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids  ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                \n    \n    ids ]))&quot; &quot;(env :key)&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        (client/get {:as :json})\n        ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                )]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects\n                (map :id))\n                ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n                              ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] ids)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map_id)]\n    ids ))&quot; &quot;(read-numbers)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1481224135191">{:repl-history {:ide [], :local [&quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 \n\n                 )]\n           data ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n\n                 )]\n           data ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;))\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                ]\n    \n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                )\n    \n    ids ]))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids  ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                \n    \n    ids ]))&quot; &quot;(env :key)&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        (client/get {:as :json})\n        ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                )]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects\n                (map :id))\n                ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n                              ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] ids)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map_id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(read-numbers)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Leiningen.run">
     <configuration default="false" name="REPL for paintings2" type="ClojureREPL" factoryName="Local" temporary="true">
       <setting name="replType" value="1" />
@@ -489,7 +443,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -507,7 +461,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -854,27 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/api_get.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/paintings2/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -886,6 +819,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/api_get.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
