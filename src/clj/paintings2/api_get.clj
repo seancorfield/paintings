@@ -6,15 +6,10 @@
 (defn read-numbers
   "Reads the ids of the paintings"
   []
-  (let [data (-> ( str "https://www.rijksmuseum.nl/api/nl/collection")
-                 (client/get {:as :json :query-params {:key (env :key) :format "json" :type "schilderij" :toppieces "True"}})
+  (->> (client/get  "https://www.rijksmuseum.nl/api/nl/collection" {:as :json :query-params {:key (env :key) :format "json" :type "schilderij" :toppieces "True"}})
                  :body
                  :artObjects
-                 )
-        map-id (map :id data)
-        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]
-    ids ))
-
+                 (map :objectNumber)))
 
 (defn read-data-painting
   "Reads the title, description, date , collection, colors and url of a image"
