@@ -25,6 +25,7 @@
                  [selmer "1.10.1"]
                  [clj-http "2.3.0"]
                  [environ "1.1.0"]
+                 [cloverage "1.0.9"]
                  ]
 
   :min-lein-version "2.0.0"

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3da587f-458a-4110-b9f7-cdc846aa7b82" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__bultitude_0_2_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__cloverage_1_0_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_xml_0_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_tcrawley_dynapath_0_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/clj/paintings2/test/get_api.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paintings2.iml" afterPath="$PROJECT_DIR$/paintings2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/paintings2/api_get.clj" afterPath="$PROJECT_DIR$/src/clj/paintings2/api_get.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/paintings2/routes/home.clj" afterPath="$PROJECT_DIR$/src/clj/paintings2/routes/home.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/clj/paintings2/test/handler.clj" afterPath="$PROJECT_DIR$/test/clj/paintings2/test/handler.clj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +30,7 @@
     <favorites_list name="paintings2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api_get.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/clj/paintings2/api_get.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,22 +44,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/clj/paintings2/api-get.clj" />
-        <option value="$PROJECT_DIR$/src/clj/paintings2/routes/home.clj" />
         <option value="$PROJECT_DIR$/resources/templates/base.html" />
         <option value="$PROJECT_DIR$/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/resources/public/css/screen.css" />
         <option value="$PROJECT_DIR$/.lein-env" />
-        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/profiles.clj" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/test/clj/paintings2/test/handler.clj" />
+        <option value="$PROJECT_DIR$/src/clj/paintings2/routes/home.clj" />
+        <option value="$PROJECT_DIR$/test/clj/paintings2/test/api-get.clj" />
+        <option value="$PROJECT_DIR$/src/clj/paintings2/test" />
+        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/src/clj/paintings2/api_get.clj" />
+        <option value="$PROJECT_DIR$/test/clj/paintings2/test/get_api.clj" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -79,8 +84,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -90,6 +96,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -125,21 +153,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="env" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paintings2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ToolWindowLeiningen.ShowToolbar" value="false" />
   </component>
-  <component name="ReplState" timestamp="1481234929578">{:repl-history {:ide [], :local [&quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 \n\n                 )]\n           data ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n\n                 )]\n           data ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;))\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                ]\n    \n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                )\n    \n    ids ]))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids  ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                \n    \n    ids ]))&quot; &quot;(env :key)&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        (client/get {:as :json})\n        ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                )]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects\n                (map :id))\n                ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n                              ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] ids)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map_id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3) ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item) 3 ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item) 3 ) [] map-id)]\n    map-id ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) [] map-id)]\n    map-id ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) [] map-id)]\n    ids ))&quot; &quot;(subs \&quot;nl-SK-A-799\&quot; 3)&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map subs 3  map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (subs 3)  map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                                  )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    data ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                                  )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    map-id ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    map-id ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    ids ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item 3) ) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item 3) )) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) map-id) ]\n    ids ))&quot; &quot;\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (-&gt;&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n       :body\n       :artObjects\n       (map :objectNumber)))&quot; &quot;(read-numbers)&quot;], :remote []}}</component>
-  <component name="RunManager" selected="Clojure REPL.REPL for paintings2">
+  <component name="ReplState" timestamp="1481573815891">{:repl-history {:ide [], :local [&quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 \n\n                 )]\n           data ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n\n                 )]\n           data ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        \n        ]\n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;))\n        \n        ]\n    ids ))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                ]\n    \n    ids )))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                )\n    \n    ids ]))&quot; &quot;(ns paintings2.api-get\n  (:require [clj-http.client :as client]\n            [environ.core :refer [env]]))\n\n\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids  ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                \n    \n    ids ]))&quot; &quot;(env :key)&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n        (client/get {:as :json})\n        ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                )]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects\n                (map :id))\n                ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; (str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key) \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n                              ]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] ids)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [ids (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?key=\&quot; (env :key)  \&quot;&amp;format=json&amp;type=schilderij&amp;toppieces=True\&quot;)\n                (client/get {:as :json})\n                :body\n                :artObjects)\n        map_id  (map :id  ids)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map_id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection?\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderijen\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (reduce (fn [results id] (conj results (.substring id 3))) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3) ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item) 3 ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item) 3 ) [] map-id)]\n    map-id ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) [] map-id)]\n    map-id ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) [] map-id)]\n    ids ))&quot; &quot;(subs \&quot;nl-SK-A-799\&quot; 3)&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map subs 3  map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; ( str \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot;)\n                 (client/get {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (subs 3)  map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                                  )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    data ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                                  )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    map-id ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    map-id ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) [] map-id)]\n    ids ))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item) 3) ) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item 3) ) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs (:id item 3) )) map-id)]\n    ids ))&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (let [data (-&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n                 :body\n                 :artObjects\n                 )\n        map-id (map :id data)\n        ids (map (fn [item] (subs item 3 )) map-id) ]\n    ids ))&quot; &quot;\n(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  []\n  (-&gt;&gt; (client/get  \&quot;https://www.rijksmuseum.nl/api/nl/collection\&quot; {:as :json :query-params {:key (env :key) :format \&quot;json\&quot; :type \&quot;schilderij\&quot; :toppieces \&quot;True\&quot;}})\n       :body\n       :artObjects\n       (map :objectNumber)))&quot; &quot;(read-numbers)&quot; &quot;(api/read-numbers [ {:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}])&quot; &quot;(defn read-numbers\n      \&quot;Reads the ids of the paintings\&quot;\n      [response]\n      (-&gt;&gt; (:body response)\n           :artObjects\n           (map :objectNumber)))\n&quot; &quot;(defn read-numbers\n  \&quot;Reads the ids of the paintings\&quot;\n  [response]\n  (-&gt;&gt; (:body response)\n       :artObjects\n       (map :objectNumber)))\n&quot; &quot;(read-numbers [ {:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;} ])&quot; &quot;(read-numbers [{:body {:artObjects {:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}}} ])&quot; &quot;(read-numbers [{:body {:artObjects [{:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}]}} ])&quot; &quot;(read-numbers [{:body {:artObjects ({:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;})}} ])&quot; &quot;(read-numbers ({:body {:artObjects ({:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;})}} ))&quot; &quot;(read-numbers ({:body {:artObjects {{:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}}}} ))&quot; &quot;(read-numbers {:body {:artObjects {{:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}}}} )&quot; &quot;(read-numbers {:body {:artObjects {:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}}} )&quot; &quot;`(read-numbers {:body {:artObjects [{:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}}]}})&quot; &quot;(read-numbers {:body {:artObjects [{:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}]}}})&quot; &quot;(read-numbers {:body {:artObjects [{:objectNumber \&quot;1234\&quot;} {:objectNumber \&quot;abcd\&quot;}]}})&quot; &quot;(not(every? true?  [false  false  false]))&quot; &quot;( &amp;&amp; (not(every? true? [false, false, false])) (any true? [false, false, false]))&quot; &quot;( and (not(every? true? [false, false, false])) (any true? [false, false, false]))&quot; &quot;( and (not(every? true? [false, false, false])) (some? true? [false, false, false]))&quot; &quot;( and (not(every? true? [false, false, false])) (some true? [false, false, false]))&quot; &quot;( and (not(every? true? [false, false, false])) (not-any? true? [false, false, false]))&quot; &quot;(not ( and (not(every? true? [false, false, false])) (not-any? true? [false, false, false])))&quot;], :remote []}}</component>
+  <component name="RunManager" selected="Leiningen.run">
     <configuration default="false" name="REPL for paintings2" type="ClojureREPL" factoryName="Local" temporary="true">
       <setting name="replType" value="1" />
       <module name="paintings2" />
@@ -147,6 +219,15 @@
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="api-get" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="paintings2" />
+      <setting name="path" value="$PROJECT_DIR$/test/clj/paintings2/test/api-get.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/clj/paintings2/test" />
+      <setting name="repl" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -397,13 +478,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Leiningen.run" />
       <item index="1" class="java.lang.String" itemvalue="Clojure REPL.REPL for paintings2" />
+      <item index="2" class="java.lang.String" itemvalue="Clojure Application.api-get" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for paintings2" />
+        <item index="1" class="java.lang.String" itemvalue="Clojure Application.api-get" />
       </list>
     </recent_temporary>
   </component>
@@ -421,27 +504,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3828125" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38256785" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24843423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -455,6 +538,38 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38256785" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308668" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24843423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -464,7 +579,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -473,27 +588,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.lein-env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -724,20 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/layout.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/handler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Capstanfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -745,24 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/routes/home.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -794,20 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -815,10 +867,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/layout.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/test" />
+    <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/paintings2/routes/home.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clj/paintings2/test/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clj/paintings2/test/get_api.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/paintings2/api_get.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="425">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>
