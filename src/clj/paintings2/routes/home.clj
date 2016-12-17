@@ -15,7 +15,7 @@
         (layout/render
           "home.html" {:paintings (-> (client/get url options)
                                       api/read-numbers
-                                      api/do-both-in-parallel)})))
+                                      api/do-both-in-parallel-front)})))
 
 (defroutes home-routes
   (GET "/" [] (home-page))

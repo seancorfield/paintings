@@ -25,7 +25,6 @@
                  [selmer "1.10.1"]
                  [clj-http "2.3.0"]
                  [environ "1.1.0"]
-                 [cloverage "1.0.9"]
                  ]
 
   :min-lein-version "2.0.0"
@@ -38,7 +37,8 @@
 
   :plugins [[lein-cprop "1.0.1"]
             [lein-immutant "2.1.0"]
-            [lein-environ "1.1.0"]]
+            [lein-environ "1.1.0"]
+            [lein-kibit "0.1.3"]]
 
   :profiles
   {:uberjar {:omit-source true

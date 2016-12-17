@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <META name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to paintings2</title>
 
     <!-- styles -->
+    <link href="http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200"
+          rel="stylesheet" type="text/css">
     {% style "/assets/bootstrap/css/bootstrap.min.css" %}
     {% style "/assets/font-awesome/css/font-awesome.min.css" %}
 
-    {% style "/css/screen.css" %}
-  </head>
-  <body>
-      <!-- navbar -->
+    {% style "/css/default.css" %}
+    {% style "/css/shortcodes.css" %}
+    {% style "/css/style.css" %}
 
-    <div class="container">
-      {% block content %}
-      {% endblock %}
-    </div>
+</head>
+<body>
 
-    <!-- scripts -->
-    {% script "/assets/jquery/jquery.min.js" %}
-    {% script "/assets/tether/dist/js/tether.min.js" %}
-    {% script "/assets/bootstrap/js/bootstrap.min.js" %}
 
-    <script type="text/javascript">
-      var context = "{{servlet-context}}";
-    </script>
-    {% block page-scripts %}
+
+<!-- navbar -->
+
+<div class="wrapper">
+
+    <section class="page-title">
+        <div class="container">
+            <h4 class="text-uppercase">Paintings</h4>
+            <span>Top pieces of the Rijksmuseum in Amsterdam</span>
+        </div>
+    </section>
+
+    {% block content %}
     {% endblock %}
-  </body>
+</div>
+
+<!-- scripts -->
+{% script "/assets/jquery/jquery.min.js" %}
+{% script "/assets/tether/dist/js/tether.min.js" %}
+{% script "/assets/bootstrap/js/bootstrap.min.js" %}
+
+<script type="text/javascript">
+      var context = "{{servlet-context}}";
+
+</script>
+{% block page-scripts %}
+{% endblock %}
+</body>
 </html>

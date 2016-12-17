@@ -1,11 +1,28 @@
 {% extends "base.html" %}
+
 {% block content %}
 
-{% for data  in  paintings %}
 
- <img src={{ data.tiles  %} />
+<div class="portfolio col-2 gutter ">
 
+   {% for data  in  paintings %}
+
+   <div class="portfolio-item cat1 cat3 ">
+      <div class="thumb">
+         <img src= {{ data.tiles }} alt="">
+         <div class="portfolio-hover">
+           <div class="portfolio-description">
+               <h4> {{ data.name }}</h4>
+               <p> {{ data.title }}
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
 
 {% endfor %}
 
+</div>
+
 {% endblock %}
+
