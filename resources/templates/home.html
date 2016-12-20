@@ -7,6 +7,8 @@
 
    {% for data  in  paintings %}
 
+    `<a href="/detail/{{data.id}}">
+
    <div class="portfolio-item cat1 cat3 ">
       <div class="thumb">
          <img src= {{ data.tiles }} alt="">
@@ -20,6 +22,7 @@
       </div>
    </div>
 
+  </a>
 {% endfor %}
 
 </div>

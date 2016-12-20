@@ -12,12 +12,21 @@
 (defn home-page []
   (let [url "https://www.rijksmuseum.nl/api/nl/collection"
         options {:as :json :query-params {:key (env :key) :format "json" :type "schilderij" :toppieces "True"}}]
-        (layout/render
-          "home.html" {:paintings (-> (client/get url options)
-                                      api/read-numbers
-                                      api/do-both-in-parallel-front)})))
+    (layout/render
+      "home.html" {:paintings (-> (client/get url options)
+                                  api/read-numbers
+                                  api/do-both-in-parallel-front)})))
+
+(defn detail-page [id]
+  (layout/render
+    "detail.html" {:paintings (first (api/do-both-in-parallel-detail [id]))}))
+
 
 (defroutes home-routes
-  (GET "/" [] (home-page))
-  (resources "/")  )
+           (GET "/" [] (home-page))
+           (resources "/")
+
+           (GET "/detail/:id" [id] (detail-page id))
+           (resources "/detail/:id"))
+
 

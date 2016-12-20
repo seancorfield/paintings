@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<section class="body-content ">
+
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!--classic image post-->
+                    <div class="blog-classic">
+                        <div class="blog-post">
+                            <div class="full-width">
+                                <img src = {{ paintings.tiles }} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-md-4">
+                 <div class = "data">
+                     Naam schilder: {{ paintings.name }}
+
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

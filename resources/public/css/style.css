@@ -6719,4 +6719,9 @@ Table of contents
     .count-down-alt .c-grid {
         margin: 10px;
     }
+
+    .data {
+       border: 1px solid black ;
+       border-radius: 10px;
+    }
 }

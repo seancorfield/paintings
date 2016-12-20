@@ -72,17 +72,15 @@
 
 (defn do-both-in-parallel-front
   [ids]
-  (let [paint-thread (future (pmap #(read-data-front-page (read-json-data %)) ids))
-        image-thread (future (pmap #(read-image-url (read-image-data %)) ids))]
-    (map merge @paint-thread @image-thread)))
-
+  (let [paintings (pmap #(read-data-front-page (read-json-data %)) ids)
+        images (pmap #(read-image-url (read-image-data %)) ids)]
+    (mapv merge paintings images)))
 
 (defn do-both-in-parallel-detail
   [ids]
-  (let [paint-thread (future (pmap #(read-data-detail-page (read-json-data %)) ids))
-        image-thread (future (pmap #(read-image-url (read-image-data %)) ids))]
-    (map merge @paint-thread @image-thread)))
-
+  (let [paintings (pmap #(read-data-detail-page (read-json-data %)) ids)
+        images (pmap #(read-image-url (read-image-data %)) ids)]
+    (mapv merge paintings images)))
 
 
 
