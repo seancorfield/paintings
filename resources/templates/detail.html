@@ -8,7 +8,7 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-12">
                     <!--classic image post-->
                     <div class="blog-classic">
                         <div class="blog-post">
@@ -18,7 +18,9 @@
                         </div>
                     </div>
                 </div>
-                <div class = "col-md-5">
+            </div>
+            <div class = "row">
+                <div class = "col-md-12">
                  <div class = "data">
                      <div class = "row">
                          <div class = "col-md-6">
@@ -28,6 +30,7 @@
                              {{ paintings.name }}
                          </div>
                      </div>
+                     <br>
                      <div class = "row">
                          <div class = "col-md-6">
                             Title schilderij
@@ -36,7 +39,47 @@
                              {{ paintings.title }}
                          </div>
                      </div>
+                      <br>
+                     <div class = "row">
+                         <div class = "col-md-6">
+                             Description
+                         </div>
+                         <div class = "col-md-6">
+                             {{ paintings.description }}
+                         </div>
+                     </div>
+                     <br>
+                     <div class = "row">
+                         <div class = "col-md-6">
+                             Date
+                         </div>
+                         <div class = "col-md-6">
+                             {{ paintings.date }}
+                         </div>
+                     </div>
+                     <br>
+                     <div class = "row">
+                         <div class = "col-md-6">
+                             Collectie
+                         </div>
+                         <div class = "col-md-6">
+                             {{ paintings.collectie}}
+                         </div>
+                     </div>
+                    <br>
+                    <div class = "row">
+                        <div class = "col-md-6">
+                            colors
+                        </div>
+                        <div class = "col-md-6">
+                            {% for color in paintings.colors %}
+                               <span class = "box" style = "background-color:  {{color}} ">  </span>
+                            {% endfor %}
 
+                        </div>
+                    </div>
+                 </div>
+                 </div>
 
                  </div>
 
