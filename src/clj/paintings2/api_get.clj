@@ -62,30 +62,24 @@
   [response]
   (let [art-objects (-> response
                         :body
-                        :levels
-                        )
-
+                        :levels)
         url (filter #(= (:name %) "z4") art-objects)
         tiles (:tiles (first url))
         image (get-in tiles [0 :url])
         ]
     {:tiles image}))
 
-(defn do-both-in-parallel-front
+(defn fetch-paintings-and-images-front-page
   [ids]
   (let [paintings (pmap #(read-data-front-page (read-json-data %)) ids)
         images (pmap #(read-image-url (read-image-data %)) ids)]
     (mapv merge paintings images)))
 
-(defn do-both-in-parallel-detail
+(defn fetch-paintings-and-images-detail-page
   [ids]
   (let [paintings (pmap #(read-data-detail-page (read-json-data %)) ids)
         images (pmap #(read-image-url (read-image-data %)) ids)]
     (mapv merge paintings images)))
-
-
-
-
 
 
 

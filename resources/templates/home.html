@@ -5,25 +5,25 @@
 
 <div class="portfolio col-2 gutter ">
 
-   {% for data  in  paintings %}
+    {% for data in paintings %}
 
     <a href="/detail/{{data.id}}">
 
-   <div class="portfolio-item cat1 cat3 ">
-      <div class="thumb">
-         <img src= {{ data.tiles }} alt="">
-         <div class="portfolio-hover">
-           <div class="portfolio-description">
-               <h4> {{ data.name }}</h4>
-               <p> {{ data.title }}
-               </p>
+        <div class="portfolio-item cat1 cat3 ">
+            <div class="thumb">
+                <img src={{ data.tiles }} alt="">
+                <div class="portfolio-hover">
+                    <div class="portfolio-description">
+                        <h4> {{ data.name }}</h4>
+                        <p> {{ data.title }}
+                        </p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
+        </div>
 
-  </a>
-{% endfor %}
+    </a>
+    {% endfor %}
 
 </div>
 

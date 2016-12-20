@@ -13,76 +13,72 @@
                     <div class="blog-classic">
                         <div class="blog-post">
                             <div class="full-width">
-                                <img src = {{ paintings.tiles }} />
+                                <img src={{ paintings.tiles }}/>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class = "row">
-                <div class = "col-md-12">
-                 <div class = "data">
-                     <div class = "row">
-                         <div class = "col-md-6">
-                             Naam schilder
-                         </div>
-                         <div class = "col-md-6">
-                             {{ paintings.name }}
-                         </div>
-                     </div>
-                     <br>
-                     <div class = "row">
-                         <div class = "col-md-6">
-                            Title schilderij
-                         </div>
-                         <div class = "col-md-6">
-                             {{ paintings.title }}
-                         </div>
-                     </div>
-                      <br>
-                     <div class = "row">
-                         <div class = "col-md-6">
-                             Description
-                         </div>
-                         <div class = "col-md-6">
-                             {{ paintings.description }}
-                         </div>
-                     </div>
-                     <br>
-                     <div class = "row">
-                         <div class = "col-md-6">
-                             Date
-                         </div>
-                         <div class = "col-md-6">
-                             {{ paintings.date }}
-                         </div>
-                     </div>
-                     <br>
-                     <div class = "row">
-                         <div class = "col-md-6">
-                             Collectie
-                         </div>
-                         <div class = "col-md-6">
-                             {{ paintings.collectie}}
-                         </div>
-                     </div>
-                    <br>
-                    <div class = "row">
-                        <div class = "col-md-6">
-                            colors
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                Naam schilder
+                            </div>
+                            <div class="col-md-6">
+                                {{ paintings.name }}
+                            </div>
                         </div>
-                        <div class = "col-md-6">
-                            {% for color in paintings.colors %}
-                               <span class = "box" style = "background-color:  {{color}} ">  </span>
-                            {% endfor %}
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Title schilderij
+                            </div>
+                            <div class="col-md-6">
+                                {{ paintings.title }}
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Description
+                            </div>
+                            <div class="col-md-6">
+                                {{ paintings.description }}
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Date
+                            </div>
+                            <div class="col-md-6">
+                                {{ paintings.date }}
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Collectie
+                            </div>
+                            <div class="col-md-6">
+                                {{ paintings.collectie}}
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                colors
+                            </div>
+                            <div class="col-md-6">
+                                {% for color in paintings.colors %}
+                                <span class="box" style="background-color:  {{color}} ">  </span>
+                                {% endfor %}
 
+                            </div>
                         </div>
                     </div>
-                 </div>
-                 </div>
-
-                 </div>
-
                 </div>
             </div>
         </div>

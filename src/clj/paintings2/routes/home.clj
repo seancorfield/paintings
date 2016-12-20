@@ -15,11 +15,11 @@
     (layout/render
       "home.html" {:paintings (-> (client/get url options)
                                   api/read-numbers
-                                  api/do-both-in-parallel-front)})))
+                                  api/fetch-paintings-and-images-front-page)})))
 
 (defn detail-page [id]
   (layout/render
-    "detail.html" {:paintings (first (api/do-both-in-parallel-detail [id]))}))
+    "detail.html" {:paintings (first (api/fetch-paintings-and-images-detail-page [id]))}))
 
 
 (defroutes home-routes
@@ -28,5 +28,3 @@
 
            (GET "/detail/:id" [id] (detail-page id))
            (resources "/detail/:id"))
-
-
