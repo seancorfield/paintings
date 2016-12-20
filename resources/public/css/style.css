@@ -53,6 +53,13 @@
 /*==============================================
  Pre Loader
  ===============================================*/
+
+.data {
+   border : 1px solid black ;
+   border-radius : 4px;
+}
+
+
 #tb-preloader {
     position: fixed;
     z-index: 999999;
@@ -6720,8 +6727,5 @@ Table of contents
         margin: 10px;
     }
 
-    .data {
-       border: 1px solid black ;
-       border-radius: 10px;
-    }
+
 }

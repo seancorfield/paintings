@@ -31,11 +31,12 @@
                  first
                  :name)
         id (:objectNumber art-objects)
+        title (:title art-objects)
         description (:description art-objects)
         date (get-in art-objects [:dating :year])
         collectie (first (:objectCollection art-objects))
         colors (:colors art-objects)]
-    {:id id :name name :description description :date date :collectie collectie :colors colors}))
+    {:id id :title title :name name :description description :date date :collectie collectie :colors colors}))
 
 
 (defn read-data-front-page
