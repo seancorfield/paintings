@@ -8,7 +8,7 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <!--classic image post-->
                     <div class="blog-classic">
                         <div class="blog-post">
@@ -18,10 +18,25 @@
                         </div>
                     </div>
                 </div>
-                <div class = "col-md-4">
+                <div class = "col-md-5">
                  <div class = "data">
-                     Naam schilder: {{ paintings.name }} <br>
-                     Titel schilderij: {{ paintings.title }}
+                     <div class = "row">
+                         <div class = "col-md-6">
+                             Naam schilder
+                         </div>
+                         <div class = "col-md-6">
+                             {{ paintings.name }}
+                         </div>
+                     </div>
+                     <div class = "row">
+                         <div class = "col-md-6">
+                            Title schilderij
+                         </div>
+                         <div class = "col-md-6">
+                             {{ paintings.title }}
+                         </div>
+                     </div>
+
 
                  </div>
 
