@@ -1,7 +1,6 @@
 (ns paintings2.api-get
   (:require [clj-http.client :as client]
-            [environ.core :refer [env]]))
-
+            [environ.core :refer [env]] ))
 
 (defn read-numbers
   "Reads the ids of the paintings"
@@ -80,6 +79,9 @@
   (let [paintings (pmap #(read-data-detail-page (read-json-data %)) ids)
         images (pmap #(read-image-url (read-image-data %)) ids)]
     (mapv merge paintings images)))
+
+
+
 
 
 

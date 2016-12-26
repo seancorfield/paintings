@@ -11,7 +11,7 @@
                  [markdown-clj "0.9.91"]
                  [metosin/ring-http-response "0.8.0"]
                  [mount "0.1.10"]
-                 [org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojure "1.9.0-alpha14"]
                  [org.clojure/tools.cli "0.3.5"]
                  [org.clojure/tools.logging "0.3.1"]
                  [org.webjars.bower/tether "1.3.7"]
@@ -25,6 +25,7 @@
                  [selmer "1.10.1"]
                  [clj-http "2.3.0"]
                  [environ "1.1.0"]
+                 [org.clojure/test.check "0.9.0"]
                  ]
 
   :min-lein-version "2.0.0"
@@ -62,5 +63,6 @@
                   :injections [(require 'pjstadig.humane-test-output)
                                (pjstadig.humane-test-output/activate!)]}
    :project/test {:resource-paths ["env/test/resources"]}
-   :profiles/dev {}
+   :profiles {:dev {:dependencies [[org.clojure/test.check "0.9.0"]
+                                   ]}}
    :profiles/test {}})
