@@ -20,8 +20,8 @@
 (s/fdef page-check
         :args (string? (::page :page))
         :ret  (number? (::page :page))
-        :fn  (s/valid? true?  (::page :page)  )
-       )
+        :fn  (s/valid? true?  (::page :page)))
+
 
 (defn home-page [page]
   (let [page-num (page-check page)
@@ -43,5 +43,3 @@
 
            (GET "/detail/:id" [id] (detail-page id))
            (resources "/detail/:id"))
-
-
