@@ -27,7 +27,7 @@
     (if (s/invalid? page-num) 1 page-num)
     (layout/render
       "home.html" {:paintings (-> (client/get url options)
-                                  (api/read-numbers)
+                                  (api/get-objectNumbers)
                                   (api/fetch-paintings-and-images-front-page))})))
 
 (defn detail-page [id]
@@ -41,5 +41,3 @@
 
            (GET "/detail/:id" [id] (detail-page id))
            (resources "/detail/:id"))
-
-

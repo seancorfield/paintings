@@ -8,19 +8,30 @@
 
 (s/def ::dating  (s/keys :req-un [::year]))
 
-
+(s/def ::principalMakers (s/coll-of (s/keys :req-un [::name])))
 
 (s/def :basic/artObject
-  (s/keys :req-un [::id ::principalMakers ::title]))
+  (s/merge :artObject/response (s/keys :req-un [::objectNumber ::id ::principalMakers ::title])))
 
 (s/def :detail/artObject
-  (s/merge :basic/artObject (s/keys :req-un [::description ::dating ::collection ::colors])))
+  (s/merge :basic/artObject (s/keys :req-un [::description ::dating ::objectCollection ::colors])))
 
 (s/def ::artObject
   (s/or :basic :basic/artObject :detail :detail/artObject))
 
+(s/def :artObject/body
+ (s/keys :req-un [::artObject]))
 
-(defn read-numbers
+(s/def :artObject/response
+ (s/keys :req-un [:artObject/body]))
+
+; spec to test some functions
+
+(s/fdef get-objectNumbers
+ ﻿⁠⁠⁠⁠:args (s/cat :response :artObject/response)
+ :ret map?)
+
+(defn get-objectNumbers
   "Reads the ids of the paintings"
   [response]
   (->> (:body response)
@@ -41,7 +52,7 @@
   [response]
   (-> response :body :artObject))
 
-(defn read-data-front-page
+(defn get-data-front-page
   "Reads the title, description, date , collection, colors and url of a image"
   [art-object]
   (let [name (-> art-object
@@ -52,10 +63,10 @@
         title (:title art-object)]
     {:id id :name name :title title}))
 
-(defn read-data-detail-page
+(defn get-data-detail-page
   "Reads the title, description, date , collection, colors and url of a image"
   [art-object]
-  (let [basic-info (read-data-front-page art-object)
+  (let [basic-info (get-data-front-page art-object)
         description (:description art-object)
         date (get-in art-object [:dating :year])
         collectie (first (:objectCollection art-object))
@@ -65,7 +76,7 @@
 (defn read-image-data [id] (client/get
                              (str "https://www.rijksmuseum.nl/api/nl/collection/" id "/tiles")
                              {:as :json, :query-params {:format "json", :key (env :key)}}))
-(defn read-image-url
+(defn get-image-url
   "Reads the image-url"
   [response]
   (let [art-objects (-> response
@@ -79,12 +90,12 @@
 
 (defn fetch-paintings-and-images-front-page
   [ids]
-  (let [paintings (pmap (comp read-data-front-page get-art-object read-json-data) ids)
-        images (pmap (comp read-image-url read-image-data) ids)]
+  (let [paintings (pmap (comp get-data-front-page get-art-object read-json-data) ids)
+        images (pmap (comp get-image-url read-image-data) ids)]
     (mapv merge paintings images)))
 
 (defn fetch-paintings-and-images-detail-page
   [ids]
-  (let [paintings (pmap (comp read-data-detail-page get-art-object read-json-data) ids)
-        images (pmap (comp read-image-url read-image-data) ids)]
+  (let [paintings (pmap (comp get-data-detail-page get-art-object read-json-data) ids)
+        images (pmap (comp get-image-url read-image-data) ids)]
     (mapv merge paintings images)))
