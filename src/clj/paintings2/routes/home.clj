@@ -9,28 +9,26 @@
             [clj-http.client :as client]
             [clojure.spec :as s]))
 
+;;  the specs input validation file
+
 (defn ->long [s] (try (Long/parseLong s) (catch Exception _ ::s/invalid)))
 
 (s/def ::page (s/and (s/conformer ->long) (s/int-in 1 471)))
 
 (s/def ::optional-page (s/nilable ::page))
 
-(defn page-check [page] (let [page page page-num (or (s/conform ::optional-page page) 1)] page-num))
 
-(s/fdef page-check
-        :args (string? (::page :page))
-        :ret  (number? (::page :page))
-        :fn  (s/valid? true?  (::page :page)))
-
+;; the source files to make the routes
 
 (defn home-page [page]
-  (let [page-num (page-check page)
+  (let [page-num (s/conform ::page page)
         url "https://www.rijksmuseum.nl/api/nl/collection"
-        options {:as :json :query-params {:key (env :key) :format "json" :type "schilderij" :toppieces "True" :p page :ps 10}}]
+        options {:as :json :query-params {:key (env :key) :format "json" :type "schilderij" :toppieces "True" :p page-num :ps 10}}]
+    (if (s/invalid? page-num) 1 page-num)
     (layout/render
       "home.html" {:paintings (-> (client/get url options)
-                                  api/read-numbers
-                                  api/fetch-paintings-and-images-front-page)})))
+                                  (api/read-numbers)
+                                  (api/fetch-paintings-and-images-front-page))})))
 
 (defn detail-page [id]
   (layout/render

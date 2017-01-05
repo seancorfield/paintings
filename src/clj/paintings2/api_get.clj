@@ -1,6 +1,24 @@
 (ns paintings2.api-get
   (:require [clj-http.client :as client]
-            [environ.core :refer [env]]))
+            [environ.core :refer [env]]
+            [clojure.spec :as s]))
+
+
+;spec files to do some input validation
+
+(s/def ::dating  (s/keys :req-un [::year]))
+
+
+
+(s/def :basic/artObject
+  (s/keys :req-un [::id ::principalMakers ::title]))
+
+(s/def :detail/artObject
+  (s/merge :basic/artObject (s/keys :req-un [::description ::dating ::collection ::colors])))
+
+(s/def ::artObject
+  (s/or :basic :basic/artObject :detail :detail/artObject))
+
 
 (defn read-numbers
   "Reads the ids of the paintings"
@@ -8,7 +26,6 @@
   (->> (:body response)
        :artObjects
        (map :objectNumber)))
-
 
 (defn read-json-data [id] (client/get
                             (str "https://www.rijksmuseum.nl/api/nl/collection/" id)
