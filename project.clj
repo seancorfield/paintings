@@ -25,8 +25,8 @@
                  [selmer "1.10.1"]
                  [clj-http "2.3.0"]
                  [environ "1.1.0"]
-                 [org.clojure/test.check "0.9.0"]
-                 ]
+                 [org.clojure/test.check "0.9.0"]]
+
 
   :min-lein-version "2.0.0"
 
@@ -39,7 +39,12 @@
   :plugins [[lein-cprop "1.0.1"]
             [lein-immutant "2.1.0"]
             [lein-environ "1.1.0"]
-            [lein-kibit "0.1.3"]]
+            [lein-kibit "0.1.3"]
+            [proto-repl "0.3.1"]]
+
+
+
+
 
   :profiles
   {:uberjar {:omit-source true
@@ -56,13 +61,13 @@
                                  [ring/ring-devel "1.5.0"]
                                  [pjstadig/humane-test-output "0.8.1"]]
                   :plugins      [[com.jakemccrary/lein-test-refresh "0.14.0"]]
-                  
+
                   :source-paths ["env/dev/clj" "test/clj"]
                   :resource-paths ["env/dev/resources"]
                   :repl-options {:init-ns user}
                   :injections [(require 'pjstadig.humane-test-output)
                                (pjstadig.humane-test-output/activate!)]}
    :project/test {:resource-paths ["env/test/resources"]}
-   :profiles {:dev {:dependencies [[org.clojure/test.check "0.9.0"]
-                                   ]}}
+   :profiles {:dev {:dependencies [[org.clojure/test.check "0.9.0"]]}}
+
    :profiles/test {}})
