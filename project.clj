@@ -25,7 +25,9 @@
                  [selmer "1.10.1"]
                  [clj-http "2.3.0"]
                  [environ "1.1.0"]
-                 [org.clojure/test.check "0.9.0"]]
+                 [org.clojure/test.check "0.9.0"]
+                 [com.gfredericks/test.chuck "0.2.7"]]
+
 
 
   :min-lein-version "2.0.0"
