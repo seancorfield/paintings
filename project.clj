@@ -29,7 +29,6 @@
                  [com.gfredericks/test.chuck "0.2.7"]]
 
 
-
   :min-lein-version "2.0.0"
 
   :jvm-opts ["-server" "-Dconf=.lein-env"]
