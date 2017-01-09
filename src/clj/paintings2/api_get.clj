@@ -17,8 +17,8 @@
 (s/def ::name string?)
 (s/def ::title string?)
 (s/def ::description string?)
-(s/def ::year (s/int-in 1900 2018))
-(s/def ::objectCollection string?)
+(s/def ::year (s/int-in 1000 2018))
+(s/def ::objectCollection (s/coll-of string?))
 (s/def ::colors (s/coll-of string?))
 
 ; output specs
@@ -94,6 +94,10 @@
  :args (s/cat :args (s/coll-of ::objectNumber))
  :ret (s/coll-of (s/and :basic/artObject :image/object)))
 
+(s/fdef fetch-paintings-and-images-detail-page
+ :args (s/cat :args (s/coll-of ::objectNumber))
+ :ret (s/coll-of (s/and :detail/artObject :image/object)))
+
 ; the test functions
 
 ;(stest/summarize-results (stest/check 'paintings2.api-get/get-objectNumbers))
@@ -101,6 +105,8 @@
 ;(stest/summarize-results (stest/check 'paintings2.api-get/get-data-detail-page))
 ;(stest/summarize-results (stest/check 'paintings2.api-get/get-data-front-page))
 ;(stest/summarize-results (stest/check `paintings2.api-get/get-image-url))
+;(stest/summarize-results (stest/check `paintings2.api-get/get-data-front-page-url))
+;(stest/summarize-results (stest/check `paintings2.api-get/get-data-detail-page))
 
 ;  the core functions
 
@@ -177,5 +183,5 @@
 (defn fetch-paintings-and-images-detail-page
   [ids]
   (let [paintings (pmap (comp get-data-detail-page get-art-object read-json-data) ids)
-        images (pmap (comp get-image-url read-image-data) ids)])
-  (mapv merge paintings images))
+        images (pmap (comp get-image-url read-image-data) ids)]
+   (mapv merge paintings images)))
